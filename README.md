@@ -23,16 +23,15 @@ In this project, We implemented a sratch html file and some of basic JavaScript 
 
 ## Live Demo
 
-[link](file:///home/moise/awsome-books-project/index.html?)
+[live demo](https://zahraarshia.github.io/awsome-books-project/)
 
 ## Author1
 
 👤 **Zahra Arshia**
 
-- GitHub: [Zahra Arshia](https://github.com/moise-mulungu)
-- Twitter: [Zahra Arshia](https://twitter.com/moise_mulungu)
-- LinkedIn: [Zahra Arshia](https://www.linkedin.com/in/
-mo%C3%AFse-mulungu-a939831b2/)
+- GitHub: [Zahra Arshia](https://github.com/ZahraArshia)
+- Twitter: [Zahra Arshia](https://twitter.com/ZahraArshia)
+- LinkedIn: [Zahra Arshia](https://www.linkedin.com/ZahraArshia)
 
 ## Author2
 
@@ -41,11 +40,6 @@ mo%C3%AFse-mulungu-a939831b2/)
 - GitHub: [Moise Mulungu](https://github.com/moise-mulungu)
 - Twitter: [Moise Mulungu](https://twitter.com/moise_mulungu)
 - LinkedIn: [Moise Mulungu](https://www.linkedin.com/in/mo%C3%AFse-mulungu-a939831b2/)
-
-## Design 
-
-- Original design idea by [Cindy Shin in Behance](https://www.behance.net/adagio07) 
-- [Design Guideline](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015) 
 
 
 ## 🤝 Contributing
