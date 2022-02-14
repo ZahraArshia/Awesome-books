@@ -1,8 +1,8 @@
-class Book{
-	constructor(index,title,author){
-      this.index= index;
-    	this.title= title;
-      this.author= author;
+class Book {
+  constructor(index, title, author) {
+    this.index = index;
+    this.title = title;
+    this.author = author;
   }
 }
 
@@ -18,10 +18,10 @@ window.onload = () => {
   }
   addButton.addEventListener('click', add);
   displayInfo();
-  for (let i = 0; i < removeButton.length; i++) {
+  for (let i = 0; i < removeButton.length; i += i) {
     removeButton[i].addEventListener('click', remove);
   }
-}
+};
 
 function print(data) {
   if (data.title && data.author) {
@@ -37,20 +37,20 @@ function print(data) {
 }
 
 function add() {
-  const NewBook = new Book(currentIndex,document.getElementById('title').value,document.getElementById('author').value);
+  const NewBook = new Book(currentIndex, document.getElementById('title').value, document.getElementById('author').value);
   bookList.push(NewBook);
   window.localStorage.setItem('bookList', JSON.stringify(bookList));
   bookList = JSON.parse(window.localStorage.getItem('bookList'));
   print(NewBook);
-  currentIndex++;
+  currentIndex += 1 ;
 }
 
 function displayInfo() {
   if (bookList.length) {
-    currentIndex = (bookList[bookList.length - 1].index ) + 1;
-    for (let item in bookList) {
+    currentIndex = (bookList[bookList.length - 1].index ) +1;
+    for (const item in bookList) {
       print(bookList[item]);
-    }
+  
   }
 }
 
