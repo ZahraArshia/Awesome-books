@@ -12,17 +12,6 @@ const removeButton = document.getElementsByClassName('remove-btn');
 let bookList = [];
 let currentIndex = 0;
 
-window.onload = () => {
-  if (window.localStorage.getItem('bookList')) {
-    bookList = JSON.parse(window.localStorage.getItem('bookList'));
-  }
-  addButton.addEventListener('click', add);
-  displayInfo();
-  for (let i = 0; i < removeButton.length; i += i) {
-    removeButton[i].addEventListener('click', remove);
-  }
-};
-
 function print(data) {
   if (data.title && data.author) {
     const element = document.createElement('div');
@@ -62,3 +51,14 @@ function remove(event) {
   window.localStorage.setItem('bookList', JSON.stringify(bookList));
   bookList = JSON.parse(window.localStorage.getItem('bookList'));
 }
+
+window.onload = () => {
+  if (window.localStorage.getItem('bookList')) {
+    bookList = JSON.parse(window.localStorage.getItem('bookList'));
+  }
+  addButton.addEventListener('click', add);
+  displayInfo();
+  for (let i = 0; i < removeButton.length; i += 1) {
+    removeButton[i].addEventListener('click', remove);
+  }
+};
