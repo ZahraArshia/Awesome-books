@@ -1,3 +1,5 @@
+/* eslint-disable no-restricted-syntax */
+/* eslint-disable guard-for-in */
 class Book {
   constructor(index, title, author) {
     this.index = index;
