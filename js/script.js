@@ -50,7 +50,7 @@ function displayInfo() {
     currentIndex = (bookList[bookList.length - 1].index ) +1;
     for (const item in bookList) {
       print(bookList[item]);
-  
+    }
   }
 }
 
@@ -60,5 +60,5 @@ function remove(event) {
   bookShelf.removeChild(removable);
   bookList = bookList.filter((book) => book.index.toString() !== index);
   window.localStorage.setItem('bookList', JSON.stringify(bookList));
-  bookList = JSON.parse(window.localStorage.getItem('bookList'));
+  bookList = JSON.parse(window.localStorage.getItem('bookList'))
 }
