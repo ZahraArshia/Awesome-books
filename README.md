@@ -2,7 +2,8 @@
 
 # awesome-books-project
 
-This the awesome book project built with JavaScript
+In this awesome books app, you can add any books with its title and author's name by filling in the required field then clicking on the add button, when done your book would be added to the new list.
+The author and title are displayed at the left, with the remove button found at the right to allow you to remove any book from that list. 
 
 ![](file:///home/moise/awsome-books-project/index.html)
 
