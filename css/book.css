@@ -1,40 +1,41 @@
 h1 {
-    text-align: center;
+  text-align: center;
 }
+
 .main {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .form {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .book-row {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
-.removeButton {
-    border: 1px solid black;
 
+.removeButton {
+  border: 1px solid black;
 }
 
 #addButton {
-    margin-left: 140px;
+  margin-left: 140px;
 }
-#bookShelf {
-    border: 1px solid #2d2d2d;
-    background-color: #d3d3d3;
 
+#bookShelf {
+  border: 1px solid #2d2d2d;
+  background-color: #d3d3d3;
 }
 
 hr {
-    width: 20%;
-    border: 1px solid black;
-    margin-top: 20px;
+  width: 20%;
+  border: 1px solid black;
+  margin-top: 20px;
 }
