@@ -24,7 +24,7 @@ class Book {
       this.bookList.forEach((book, index) => {
         document.getElementById('bookShelf').innerHTML += `
               <div class="book-row">
-                      <p class="title">"${book.title}" By: ${book.author}</p>
+                      <p class="title-p">"${book.title}" By: ${book.author}</p>
                       <button class="removeButton" onClick = 'newBook.remove(${index})'>Remove</button>
               </div> `;
       });
