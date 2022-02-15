@@ -4,13 +4,13 @@
 
 This the awesome book project built with JavaScript
 
-![](file:///home/moise/awsome-books-project/index.html?)
+![](file:///home/moise/awsome-books-project/index.html)
 
 # Awesome books: plain JavaScript with objects
 
-> This is an awesome book project where only basic HTML, and with plain JavaScript Objects are applied.
+> This a second part of our awesome book project where only basic HTML, and with plain JavaScript Objects are applied.
 
-![screenshot](awesome-books.png)
+![screenshot](img-book/awesome-book2.png)
 
 In this project, We implemented a sratch html file and some of basic JavaScript methods and properties such as Classes, Functions and Events especially with objects.
 
