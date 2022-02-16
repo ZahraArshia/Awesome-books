@@ -4,25 +4,59 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://kit.fontawesome.com/adf6e8ca6b.js" crossorigin="anonymous"></script>
   <title>Awesome books</title>
   <link rel="stylesheet" href="css/book.css">
 </head>
 <body>
-  <section>
+
+  <nav class="nav-bar">
+    <p id="logo">Awesome Books</p>
+    <ul class="nav-list">
+      <li class="nav-item" id="list">List </li>
+      <li>|</li>
+      <li class="nav-item" id="addNew">Add new</li>
+      <li>|</li>
+      <li class="nav-item" id="contact">Contact</li>
+    </ul>
+  </nav>
+<section class="wrapper">
+  <p id="time"></p>
+  <div id="homePage">
+  <h1>Welcome to Awesome Books!</h1>
+  </div>
+
+  <div id="listSection">
     <h1>All Awesome Books</h1>
     <div class="bookShelf" id="bookShelf"></div>
-  </section>
-  <hr>
-  <section class="main">
+  </div>
+
+  <div class="main" id="addSection">
     <h2>Add A New Book</h2>
     <form class="form" id="form">
       <input id="title" placeholder="Title" type="text" aria-label="bookName" required/>
       <br>
       <input id="author" placeholder="Author" type="text" aria-label="authorName" required/>
       <br>
+      <button class="addButton" id="addButton" type="submit">Add</button>
     </form>
-    <button class="addButton" id="addButton" type="submit">Add</button>
-  </section>
+  </div>
+
+  <div class="contact" id="contactSection">
+    <h1>Contact Information</h1>
+    <p>Do you have any questions or you just want to say "Hello" ?<br>
+    You can reach out to us !</p>
+    <ul>
+      <li><p>Zahra : fzarshia@gmail.com</p></li>
+      <li><p>Moise : moisemlg90@gmail.com</p></li>
+    </ul>
+  </div>
+</section>
+  <footer id="footer">
+    <p>Copyright <i class="fa fa-copyright" aria-hidden="true"></i></p>
+  </footer>
+
 <script src="./js/class.js"></script>
+<script src="./js/nav.js"></script>
 </body>
 </html>
