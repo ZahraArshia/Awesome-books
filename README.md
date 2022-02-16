@@ -2,8 +2,7 @@
 
 # awesome-books-project
 
-In this awesome books app, you can add any books with its title and author's name by filling in the required field then clicking on the add button, when done your book would be added to the new list.
-The author and title are displayed at the left, with the remove button found at the right to allow you to remove any book from that list. 
+In this last step of this awesome books project, you can access three different pages, a book list, an Add book form and a contact info page.
 
 ![](file:///home/moise/awsome-books-project/index.html)
 
@@ -18,7 +17,7 @@ In this project, We implemented a sratch html file and some of basic JavaScript 
 ## Built With
 
 - HTML
-- JavaScript.
+- JavaScript(DOM, Events)
 - Visual Studio Code.
 - Linters
 
@@ -36,8 +35,7 @@ git clone  https://github.com/ZahraArshia/machin-learning-online-courses.git
 ```
 this online application is adaptable with all browsers including : Chrome, Firefox , Opera , Safari and IE.
 
-in this app, you can add and remove books to bookShelf as admin and the users can see the list of existing books.
-
+in this app, you can open three different pages, one is a book list where you can find all your added books, another is an about form from where you add your books and the last is a contact form where you can find our contacts.
 
 ## Author1
 
