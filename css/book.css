@@ -1,9 +1,18 @@
-h1 {
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap');
+
+h1,
+h2,
+p {
+  font-family: 'Akaya Telivigala', cursive;
   text-align: center;
 }
 
+.wrapper {
+  min-height: 300px;
+}
+
 .main {
-  display: flex;
+  display: none;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
@@ -13,29 +22,99 @@ h1 {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
 }
 
 .book-row {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  padding-left: 2%;
+  padding-right: 2%;
 }
 
 .removeButton {
-  border: 1px solid black;
+  font-family: 'Akaya Telivigala', cursive;
+  border: 1px solid #2d2d2d;
+  box-shadow: 3px 5px;
+  margin: 1%;
+  background-color: white;
 }
 
 #addButton {
-  margin-left: 140px;
+  font-family: 'Akaya Telivigala', cursive;
+  background-color: white;
+  border: 1px solid #2d2d2d;
+  box-shadow: 3px 5px;
 }
 
 #bookShelf {
   border: 1px solid #2d2d2d;
-  background-color: #d3d3d3;
+  margin: 5%;
+  max-height: 270px;
+  overflow: scroll;
 }
 
-hr {
-  width: 20%;
-  border: 1px solid black;
-  margin-top: 20px;
+.nav-bar {
+  margin: 5%;
+  margin-bottom: 1%;
+  padding-left: 5%;
+  padding-right: 5%;
+  border: 1px solid #2d2d2d;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-list {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+}
+
+.nav-item {
+  font-family: 'Akaya Telivigala', cursive;
+  padding: 5%;
+  min-width: max-content;
+  cursor: pointer;
+  text-align: center;
+}
+
+li {
+  text-align: center;
+  padding-top: 5%;
+}
+
+#logo {
+  cursor: pointer;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+  margin: 5%;
+  padding-left: 5%;
+  padding-right: 5%;
+  border: 1px solid #2d2d2d;
+}
+
+#listSection {
+  display: none;
+}
+
+.contact {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+}
+
+.book-row:nth-child(even) {
+  background-color: rgb(230, 230, 230);
+}
+
+#time {
+  text-align: end;
+  margin-right: 5%;
 }

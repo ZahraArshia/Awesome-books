@@ -7,14 +7,16 @@ class Book {
   bookList = [];
 
   add() {
-    const temp = {
-      title: document.getElementById('title').value,
-      author: document.getElementById('author').value,
-    };
-    this.bookList.push(temp);
-    localStorage.setItem('bookList', JSON.stringify(this.bookList));
-    this.bookList = JSON.parse(localStorage.getItem('bookList'));
-    this.displayInfo();
+    if (document.getElementById('title').value && document.getElementById('author').value) {
+      const temp = {
+        title: document.getElementById('title').value,
+        author: document.getElementById('author').value,
+      };
+      this.bookList.push(temp);
+      localStorage.setItem('bookList', JSON.stringify(this.bookList));
+      this.bookList = JSON.parse(localStorage.getItem('bookList'));
+      this.displayInfo();
+    }
   }
 
   displayInfo() {
