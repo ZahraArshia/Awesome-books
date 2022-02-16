@@ -2,15 +2,16 @@
 
 # awesome-books-project
 
-This the awesome book project built with JavaScript
+In this awesome books app, you can add any books with its title and author's name by filling in the required field then clicking on the add button, when done your book would be added to the new list.
+The author and title are displayed at the left, with the remove button found at the right to allow you to remove any book from that list. 
 
-![](file:///home/moise/awsome-books-project/index.html?)
+![](file:///home/moise/awsome-books-project/index.html)
 
 # Awesome books: plain JavaScript with objects
 
-> This is an awesome book project where only basic HTML, and with plain JavaScript Objects are applied.
+> This a second part of our awesome book project where only basic HTML, and with plain JavaScript Objects are applied.
 
-![screenshot](awesome-books.png)
+![screenshot](img-book/awesome-book2.png)
 
 In this project, We implemented a sratch html file and some of basic JavaScript methods and properties such as Classes, Functions and Events especially with objects.
 
@@ -23,7 +24,20 @@ In this project, We implemented a sratch html file and some of basic JavaScript 
 
 ## Live Demo
 
-[live demo](https://zahraarshia.github.io/awsome-books-project/)
+[github page](https://zahraarshia.github.io/awsome-books-project/)
+
+[live demo](https://raw.githack.com/ZahraArshia/awsome-books-project/step-two/index.html)
+
+## Getting Started
+
+To get a local copy of this app you can use :
+```
+git clone  https://github.com/ZahraArshia/machin-learning-online-courses.git
+```
+this online application is adaptable with all browsers including : Chrome, Firefox , Opera , Safari and IE.
+
+in this app, you can add and remove books to bookShelf as admin and the users can see the list of existing books.
+
 
 ## Author1
 
