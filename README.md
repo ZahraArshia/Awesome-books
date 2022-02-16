@@ -24,7 +24,19 @@ In this project, We implemented a sratch html file and some of basic JavaScript 
 
 ## Live Demo
 
-[live demo](https://zahraarshia.github.io/awsome-books-project/)
+[github page](https://zahraarshia.github.io/awsome-books-project/)
+[live demo](https://raw.githack.com/ZahraArshia/awsome-books-project/step-two/index.html)
+
+## Getting Started
+
+To get a local copy of this app you can use :
+```
+git clone  https://github.com/ZahraArshia/machin-learning-online-courses.git
+```
+this online application is adaptable with all browsers including : Chrome, Firefox , Opera , Safari and IE.
+
+in this app, you can add and remove books to bookShelf as admin and the users can see the list of existing books.
+
 
 ## Author1
 
